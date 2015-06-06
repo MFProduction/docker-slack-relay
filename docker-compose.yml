@@ -1,7 +1,7 @@
 relay:
    image: qnib/slack-relay
    environment:
-   - "slack_url='https://hooks.slack.com/services/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'"
+   - "slack_url='https://hooks.slack.com/services/YOUR_TOKEN_HERE'"
    - "HUB_REPOS=qnib/monster:#dockerhub,qnib/elk:#dockerhub"
    - "relay_port=8080"
    ports:
